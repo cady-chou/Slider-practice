@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider-practice</title>
+</head>
+<link rel="stylesheet" href="./CSS/reset.css">
+<link rel="stylesheet" href="./CSS/plugins/owl-carousel/owl.carousel.min.css">
+<!-- <link rel="stylesheet" href="./CSS/plugins/owl-carousel/owl.theme.default.css"> -->
+<link rel="stylesheet" href="./CSS/style.css">
+
+<body>
+    <div class="wrapper">
+        <div class="jumbotron owl-carousel owl-theme">
+            <div class="jumbotron__item">
+                <div class="image" style="background-image: url(./img/face1.jpg);">
+                </div>
+            </div>
+            <div class="jumbotron__item">
+                <div class="image" style="background-image: url(./img/face3.jpg);">
+                </div>
+            </div>
+            <div class="jumbotron__item">
+                <div class="image" style="background-image: url(./img/face2.jpg);">
+                </div>
+            </div>
+            <div class="jumbotron__item">
+                <div class="image" style="background-image: url(./img/face5.jpg);">
+                </div>
+            </div>
+            <div class="jumbotron__item">
+                <div class="image" style="background-image: url(./img/face4.jpg);">
+                </div>
+            </div>
+            <div class="jumbotron__item">
+                <div class="image" style="background-image: url(./img/face7.jpg);">
+                </div>
+            </div>
+            <div class="jumbotron__item">
+                <div class="image" style="background-image: url(./img/face8.jpg);">
+                </div>
+            </div>
+            <div class="jumbotron__item">
+                <div class="image" style="background-image: url(./img/face9.jpg);">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/plugins/jquery/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                nav: true,
+                item: 3,
+                autoplay: true,
+                autoplaySpeed: 800,
+                navText: []
+            })
+        })
+    </script>
+</body>
+
+</html>
