@@ -18,11 +18,12 @@
     position: relative;
 }
 
-@media (max-width:768px) {
+
+/* @media (max-width:768px) {
     .owl-theme .owl-nav {
         display: none;
     }
-}
+} */
 
 .owl-theme .owl-nav .owl-prev,
 .owl-theme .owl-nav .owl-next {
@@ -51,7 +52,8 @@
     background-position: left;
 }
 
-.owl-theme .owl-dots {
+
+/* .owl-theme .owl-dots {
     display: block;
     position: absolute;
     width: 100%;
@@ -70,4 +72,4 @@
 
 .owl-theme .owl-dots .active {
     background-color: #000000;
-}
+} */
